@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+body {
+    width: 100%;
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: system-ui;
+}
+
+.container {
+    background: #040a1d;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form1 h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.form1 input {
+    padding: 15px 159px;
+    padding-left: 15px;
+    display:block;
+    font-size: 15px;
+    margin-bottom: 21px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+.form1 {
+    width: 100%;
+    padding: 1;
+}
+
+.form1_input_wrapper {
+    margin-top: 20px;
+}
+
+button.form1_next_btn {
+    background: #ff5200;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 38px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    transform: scale(0.90);
+    -webkit-transform: scale(0.90);
+    -moz-transform: scale(0.90);
+    -ms-transform: scale(0.90);
+    -o-transform: scale(0.90);
+}
+
+
+/* form 2 */
+
+
+.form2 h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.form2 input {
+    padding: 15px 159px;
+    padding-left: 15px;
+    display:block;
+    font-size: 15px;
+    margin-bottom: 21px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+.form2 {
+    width: 100%;
+    padding: 1;
+}
+
+.form2_input_wrapper {
+    margin-top: 20px;
+}
+
+button.form2_next_btn {
+    background: #ff5200;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 38px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50%;
+    float:left;
+}
+button.form2_prev_btn{
+    background: #ff5200;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 38px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50%;
+    float:left;
+}
+
+
+/* form3 */
+
+
+.form3 h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.form3 input {
+    padding: 15px 159px;
+    padding-left: 15px;
+    display:block;
+    font-size: 15px;
+    margin-bottom: 21px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+.form3 {
+    width: 100%;
+    padding: 1;
+}
+
+.form3_input_wrapper {
+    margin-top: 20px;
+}
+
+button.form3_submit_btn {
+    background: #ff5200;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 38px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50%;
+    float:left;
+}
+button.form3_prev_btn{
+    background: #ff5200;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 38px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50%;
+    float:left;
+}
+.yourInfo {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 102px;
+}
+
+.yourInfo h1 {
+    text-align: center;
+    background: #ff5200;
+    border-radius: 10px;
+}
+
+.infos {
+    margin-top: 20px;
+}
+
+.infos ul {list-style: none;}
+
+.infos li {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.form2,.form3,.yourInfo{
+    display: none;
+}
+
+.showForm{
+    display: block;
+}
+.hideForm{
+    display: none;
+}
+
